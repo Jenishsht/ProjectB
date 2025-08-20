@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
-[Route("api/[controller]")]   //localhost:5001/api/member
+[Route("api/[controller]s")]   //localhost:5001/api/member
 [ApiController]
 public class MemberController(AppDbContext context) : ControllerBase
 {
