@@ -15,8 +15,9 @@ public static class AppUserExtensions
             ID = user.Id,
             DisplayName = user.UserName,
             Email = user.UserEmail,
-            Token = tokenService.CreateToken(user)    
-            
+            ImageUrl = user.ImageUrl,
+            Token = tokenService.CreateToken(user)
+
         };
     }
 }

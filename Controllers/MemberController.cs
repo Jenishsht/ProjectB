@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
 
-  //  [Route("api/[controller]s")]   //localhost:5001/api/member
-   //[ApiController]
+   [Route("api/[controller]s")]   //localhost:5001/api/member
+   [ApiController]
     [Authorize]
 
     public class MemberController(IMemberRepository memberRepository) : BaseApiController
